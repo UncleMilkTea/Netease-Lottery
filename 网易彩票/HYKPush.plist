@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header</key>
+		<string></string>
+		<key>footer</key>
+		<string></string>
+		<key>HYKItem</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>开奖推送</string>
+				<key>accessotyType</key>
+				<string>UIImageView</string>
+				<key>accessoryName</key>
+				<string>arrow_right</string>
+				<key>plistName</key>
+				<string>HYKPush2</string>
+				<key>HYKTargetVc</key>
+				<string>HYKSettingController</string>
+			</dict>
+			<dict>
+				<key>icon</key>
+				<string></string>
+				<key>title</key>
+				<string>比分直播推送</string>
+				<key>accessotyType</key>
+				<string>UIImageView</string>
+				<key>accessoryName</key>
+				<string>arrow_right</string>
+				<key>plistName</key>
+				<string>HYKPush3</string>
+				<key>HYKTargetVc</key>
+				<string>HYKScoreController</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>中奖动画</string>
+				<key>accessotyType</key>
+				<string>UIImageView</string>
+				<key>accessoryName</key>
+				<string>arrow_right</string>
+				<key>HYKTargetVc</key>
+				<string>HYKSettingController</string>
+				<key>plistName</key>
+				<string>HYKPrize</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>购彩提醒</string>
+				<key>accessotyType</key>
+				<string>UIImageView</string>
+				<key>accessoryName</key>
+				<string>arrow_right</string>
+				<key>HYKTargetVc</key>
+				<string>HYKSettingController</string>
+				<key>plistName</key>
+				<string>HYKTipLottery</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

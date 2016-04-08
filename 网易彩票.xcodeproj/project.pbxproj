@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A208A5151C4F4BA500DE28B8 /* HYKPush2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A208A5141C4F4BA500DE28B8 /* HYKPush2.plist */; };
+		A21849EF1C477ECA0094EBA9 /* HYKGroupBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21849EE1C477ECA0094EBA9 /* HYKGroupBuyController.m */; };
+		A21849F21C477F6C0094EBA9 /* HYKGroupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A21849F11C477F6C0094EBA9 /* HYKGroupButton.m */; };
+		A21849FA1C4816170094EBA9 /* QQChaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A21849F81C4816170094EBA9 /* QQChaCell.m */; };
+		A21849FF1C4816260094EBA9 /* QQChatFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A21849FC1C4816260094EBA9 /* QQChatFrameModel.m */; };
+		A2184A001C4816260094EBA9 /* QQChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A21849FE1C4816260094EBA9 /* QQChatModel.m */; };
+		A2184A031C4816310094EBA9 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2184A021C4816310094EBA9 /* ChatViewController.m */; };
+		A2184A081C4817110094EBA9 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2184A071C4817110094EBA9 /* messages.plist */; };
+		A242A6141C4F54B500F9173E /* HYKSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A242A6131C4F54B500F9173E /* HYKSettingCell.m */; };
+		A242A6161C4F671800F9173E /* HYKPush3.plist in Resources */ = {isa = PBXBuildFile; fileRef = A242A6151C4F671800F9173E /* HYKPush3.plist */; };
+		A242A6191C4F72A400F9173E /* HYKScoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = A242A6181C4F72A400F9173E /* HYKScoreController.m */; };
+		A242A61B1C4F8B2100F9173E /* HYKPrize.plist in Resources */ = {isa = PBXBuildFile; fileRef = A242A61A1C4F8B2100F9173E /* HYKPrize.plist */; };
+		A242A61D1C4F8B5D00F9173E /* HYKTipLottery.plist in Resources */ = {isa = PBXBuildFile; fileRef = A242A61C1C4F8B5D00F9173E /* HYKTipLottery.plist */; };
+		A242A6201C4FF85400F9173E /* HYKProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = A242A61F1C4FF85400F9173E /* HYKProductController.m */; };
+		A242A6231C4FF88A00F9173E /* HYKAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = A242A6221C4FF88A00F9173E /* HYKAboutController.m */; };
+		A242A6261C4FFA9700F9173E /* HYKProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A242A6251C4FFA9700F9173E /* HYKProduct.m */; };
+		A242A6291C4FFE0200F9173E /* HYKProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A242A6281C4FFE0200F9173E /* HYKProductCell.m */; };
+		A242A62B1C4FFE2300F9173E /* HYKProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A242A62A1C4FFE2300F9173E /* HYKProductCell.xib */; };
+		A242A62F1C50A02D00F9173E /* HYKAbout.plist in Resources */ = {isa = PBXBuildFile; fileRef = A242A62E1C50A02D00F9173E /* HYKAbout.plist */; };
+		A242A6311C50A1F900F9173E /* HYKAboutHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A242A6301C50A1F900F9173E /* HYKAboutHeaderView.xib */; };
+		A242A6331C50B34600F9173E /* HYKShare.plist in Resources */ = {isa = PBXBuildFile; fileRef = A242A6321C50B34600F9173E /* HYKShare.plist */; };
+		A29B4D2D1CB7744800E0C086 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D2A1CB7744800E0C086 /* help.json */; };
+		A29B4D2E1CB7744800E0C086 /* more_project.json in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D2B1CB7744800E0C086 /* more_project.json */; };
+		A29B4D2F1CB7744800E0C086 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D2C1CB7744800E0C086 /* products.json */; };
+		A29B4D4E1CB7745000E0C086 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D311CB7745000E0C086 /* bjdc_howto.html */; };
+		A29B4D4F1CB7745000E0C086 /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D321CB7745000E0C086 /* coupon_help.html */; };
+		A29B4D501CB7745000E0C086 /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D331CB7745000E0C086 /* credit_help.html */; };
+		A29B4D511CB7745000E0C086 /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D341CB7745000E0C086 /* dlt_howto.html */; };
+		A29B4D521CB7745000E0C086 /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D351CB7745000E0C086 /* f9_howto.html */; };
+		A29B4D531CB7745000E0C086 /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D361CB7745000E0C086 /* gdy11_howto.html */; };
+		A29B4D541CB7745000E0C086 /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D371CB7745000E0C086 /* group_record.html */; };
+		A29B4D551CB7745000E0C086 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D381CB7745000E0C086 /* help.html */; };
+		A29B4D561CB7745000E0C086 /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D391CB7745000E0C086 /* helpGroupBuy.html */; };
+		A29B4D571CB7745000E0C086 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D3A1CB7745000E0C086 /* jclq_howto.html */; };
+		A29B4D581CB7745000E0C086 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D3B1CB7745000E0C086 /* jczq_howto.html */; };
+		A29B4D591CB7745000E0C086 /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D3C1CB7745000E0C086 /* jxssc_howto.html */; };
+		A29B4D5A1CB7745000E0C086 /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D3D1CB7745000E0C086 /* jxy11_howto.html */; };
+		A29B4D5B1CB7745000E0C086 /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D3E1CB7745000E0C086 /* k2_howto.html */; };
+		A29B4D5C1CB7745000E0C086 /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D3F1CB7745000E0C086 /* k3_howto.html */; };
+		A29B4D5D1CB7745000E0C086 /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D401CB7745000E0C086 /* kl8_howto.html */; };
+		A29B4D5E1CB7745000E0C086 /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D411CB7745000E0C086 /* lk11_howto.html */; };
+		A29B4D5F1CB7745000E0C086 /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D421CB7745000E0C086 /* networkconnectedfailed.html */; };
+		A29B4D601CB7745000E0C086 /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D431CB7745000E0C086 /* pl3_howto.html */; };
+		A29B4D611CB7745000E0C086 /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D441CB7745000E0C086 /* pl5_howto.html */; };
+		A29B4D621CB7745000E0C086 /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D451CB7745000E0C086 /* qlc_howto.html */; };
+		A29B4D631CB7745000E0C086 /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D461CB7745000E0C086 /* qxc_howto.html */; };
+		A29B4D641CB7745000E0C086 /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D471CB7745000E0C086 /* rule.css */; };
+		A29B4D651CB7745000E0C086 /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D481CB7745000E0C086 /* sfc_howto.html */; };
+		A29B4D661CB7745000E0C086 /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D491CB7745000E0C086 /* ssc_howto.html */; };
+		A29B4D671CB7745000E0C086 /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D4A1CB7745000E0C086 /* ssq_howto.html */; };
+		A29B4D681CB7745000E0C086 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D4B1CB7745000E0C086 /* x3d_howto.html */; };
+		A29B4D691CB7745000E0C086 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D4C1CB7745000E0C086 /* y11_howto.html */; };
+		A29B4D6A1CB7745000E0C086 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = A29B4D4D1CB7745000E0C086 /* znzh.html */; };
+		A2B04BE81C4633DC0036B29D /* HYKHistory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B04BE71C4633DC0036B29D /* HYKHistory.storyboard */; };
+		A2B04BEB1C4634340036B29D /* LuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B04BEA1C4634340036B29D /* LuckViewController.m */; };
+		A2B04BF11C4634450036B29D /* LuckImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B04BED1C4634450036B29D /* LuckImageButton.m */; };
+		A2B04BF21C4634450036B29D /* LuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B04BEF1C4634450036B29D /* LuckView.m */; };
+		A2B04BF31C4634450036B29D /* LuckView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2B04BF01C4634450036B29D /* LuckView.xib */; };
+		A2B04BF81C46690C0036B29D /* HYKHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B04BF71C46690C0036B29D /* HYKHallTableViewController.m */; };
+		A2B04BFE1C4673EF0036B29D /* HYKSelectNumberController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B04BFD1C4673EF0036B29D /* HYKSelectNumberController.m */; };
+		A2B04C071C469F530036B29D /* HYKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B04C061C469F530036B29D /* HYKCollectionViewCell.m */; };
+		A2B04C0A1C46A5FD0036B29D /* HYKGuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B04C091C46A5FD0036B29D /* HYKGuideController.m */; };
+		A2C7CCB51C487FC90072AB48 /* HYKSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7CCB41C487FC90072AB48 /* HYKSettingController.m */; };
+		A2C7CCBA1C4880420072AB48 /* HYKLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7CCB91C4880420072AB48 /* HYKLoginController.m */; };
+		A2C7CCBC1C4887A60072AB48 /* HYKSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2C7CCBB1C4887A60072AB48 /* HYKSetting.plist */; };
+		A2D359BC1C4743C000BC59D4 /* HYKArenaController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D359BB1C4743C000BC59D4 /* HYKArenaController.m */; };
+		A2D4831A1C448D200078417A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D483191C448D200078417A /* main.m */; };
+		A2D4831D1C448D200078417A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4831C1C448D200078417A /* AppDelegate.m */; };
+		A2D483251C448D200078417A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D483241C448D200078417A /* Assets.xcassets */; };
+		A2D483281C448D200078417A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D483261C448D200078417A /* LaunchScreen.storyboard */; };
+		A2DA171A1C4E90D100B95DF1 /* HYKPush.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2DA17191C4E90D100B95DF1 /* HYKPush.plist */; };
+		A2EECEAD1C50F58E007E90E4 /* HYKHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EECEAC1C50F58E007E90E4 /* HYKHelpController.m */; };
+		A2EECEB01C50F817007E90E4 /* HYKHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EECEAF1C50F817007E90E4 /* HYKHelp.m */; };
+		A2EECEB31C50FCCE007E90E4 /* HYKWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EECEB21C50FCCE007E90E4 /* HYKWebController.m */; };
+		A2FAA4521C45E75F00774590 /* HYKHall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FAA4511C45E75F00774590 /* HYKHall.storyboard */; };
+		A2FAA4541C45E79400774590 /* HYKArena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FAA4531C45E79400774590 /* HYKArena.storyboard */; };
+		A2FAA4561C45E7A200774590 /* HYKDiscovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FAA4551C45E7A200774590 /* HYKDiscovery.storyboard */; };
+		A2FAA45A1C45E7B200774590 /* HYKMyLottery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FAA4591C45E7B200774590 /* HYKMyLottery.storyboard */; };
+		A2FAA45F1C45ED4A00774590 /* HYKTabBarControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FAA45E1C45ED4A00774590 /* HYKTabBarControllerTableViewController.m */; };
+		A2FAA4631C45F06100774590 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FAA4621C45F06100774590 /* UIView+Extension.m */; };
+		A2FAA4661C45F08E00774590 /* HYKBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FAA4651C45F08E00774590 /* HYKBottomView.m */; };
+		A2FAA4691C45F8A200774590 /* HYKButtomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FAA4681C45F8A200774590 /* HYKButtomBtn.m */; };
+		A2FAA46C1C460DB800774590 /* HYKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FAA46B1C460DB800774590 /* HYKNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A208A5141C4F4BA500DE28B8 /* HYKPush2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKPush2.plist; sourceTree = "<group>"; };
+		A21849ED1C477ECA0094EBA9 /* HYKGroupBuyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKGroupBuyController.h; sourceTree = "<group>"; };
+		A21849EE1C477ECA0094EBA9 /* HYKGroupBuyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKGroupBuyController.m; sourceTree = "<group>"; };
+		A21849F01C477F6C0094EBA9 /* HYKGroupButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKGroupButton.h; sourceTree = "<group>"; };
+		A21849F11C477F6C0094EBA9 /* HYKGroupButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKGroupButton.m; sourceTree = "<group>"; };
+		A21849F81C4816170094EBA9 /* QQChaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQChaCell.m; sourceTree = "<group>"; };
+		A21849F91C4816170094EBA9 /* QQChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQChatCell.h; sourceTree = "<group>"; };
+		A21849FB1C4816260094EBA9 /* QQChatFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQChatFrameModel.h; sourceTree = "<group>"; };
+		A21849FC1C4816260094EBA9 /* QQChatFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQChatFrameModel.m; sourceTree = "<group>"; };
+		A21849FD1C4816260094EBA9 /* QQChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQChatModel.h; sourceTree = "<group>"; };
+		A21849FE1C4816260094EBA9 /* QQChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQChatModel.m; sourceTree = "<group>"; };
+		A2184A011C4816310094EBA9 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		A2184A021C4816310094EBA9 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		A2184A071C4817110094EBA9 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		A242A6121C4F54B500F9173E /* HYKSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKSettingCell.h; sourceTree = "<group>"; };
+		A242A6131C4F54B500F9173E /* HYKSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKSettingCell.m; sourceTree = "<group>"; };
+		A242A6151C4F671800F9173E /* HYKPush3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKPush3.plist; sourceTree = "<group>"; };
+		A242A6171C4F72A400F9173E /* HYKScoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKScoreController.h; sourceTree = "<group>"; };
+		A242A6181C4F72A400F9173E /* HYKScoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKScoreController.m; sourceTree = "<group>"; };
+		A242A61A1C4F8B2100F9173E /* HYKPrize.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKPrize.plist; sourceTree = "<group>"; };
+		A242A61C1C4F8B5D00F9173E /* HYKTipLottery.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKTipLottery.plist; sourceTree = "<group>"; };
+		A242A61E1C4FF85400F9173E /* HYKProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKProductController.h; sourceTree = "<group>"; };
+		A242A61F1C4FF85400F9173E /* HYKProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKProductController.m; sourceTree = "<group>"; };
+		A242A6211C4FF88A00F9173E /* HYKAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKAboutController.h; sourceTree = "<group>"; };
+		A242A6221C4FF88A00F9173E /* HYKAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKAboutController.m; sourceTree = "<group>"; };
+		A242A6241C4FFA9700F9173E /* HYKProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKProduct.h; sourceTree = "<group>"; };
+		A242A6251C4FFA9700F9173E /* HYKProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKProduct.m; sourceTree = "<group>"; };
+		A242A6271C4FFE0200F9173E /* HYKProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKProductCell.h; sourceTree = "<group>"; };
+		A242A6281C4FFE0200F9173E /* HYKProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKProductCell.m; sourceTree = "<group>"; };
+		A242A62A1C4FFE2300F9173E /* HYKProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYKProductCell.xib; sourceTree = "<group>"; };
+		A242A62E1C50A02D00F9173E /* HYKAbout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKAbout.plist; sourceTree = "<group>"; };
+		A242A6301C50A1F900F9173E /* HYKAboutHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYKAboutHeaderView.xib; sourceTree = "<group>"; };
+		A242A6321C50B34600F9173E /* HYKShare.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKShare.plist; sourceTree = "<group>"; };
+		A29B4D2A1CB7744800E0C086 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		A29B4D2B1CB7744800E0C086 /* more_project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = more_project.json; sourceTree = "<group>"; };
+		A29B4D2C1CB7744800E0C086 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		A29B4D311CB7745000E0C086 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		A29B4D321CB7745000E0C086 /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		A29B4D331CB7745000E0C086 /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		A29B4D341CB7745000E0C086 /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		A29B4D351CB7745000E0C086 /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		A29B4D361CB7745000E0C086 /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		A29B4D371CB7745000E0C086 /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		A29B4D381CB7745000E0C086 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		A29B4D391CB7745000E0C086 /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		A29B4D3A1CB7745000E0C086 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		A29B4D3B1CB7745000E0C086 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		A29B4D3C1CB7745000E0C086 /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		A29B4D3D1CB7745000E0C086 /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		A29B4D3E1CB7745000E0C086 /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		A29B4D3F1CB7745000E0C086 /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		A29B4D401CB7745000E0C086 /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		A29B4D411CB7745000E0C086 /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		A29B4D421CB7745000E0C086 /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		A29B4D431CB7745000E0C086 /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		A29B4D441CB7745000E0C086 /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		A29B4D451CB7745000E0C086 /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		A29B4D461CB7745000E0C086 /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		A29B4D471CB7745000E0C086 /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		A29B4D481CB7745000E0C086 /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		A29B4D491CB7745000E0C086 /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		A29B4D4A1CB7745000E0C086 /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		A29B4D4B1CB7745000E0C086 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		A29B4D4C1CB7745000E0C086 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		A29B4D4D1CB7745000E0C086 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		A2B04BE71C4633DC0036B29D /* HYKHistory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HYKHistory.storyboard; sourceTree = "<group>"; };
+		A2B04BE91C4634340036B29D /* LuckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckViewController.h; sourceTree = "<group>"; };
+		A2B04BEA1C4634340036B29D /* LuckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckViewController.m; sourceTree = "<group>"; };
+		A2B04BEC1C4634450036B29D /* LuckImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckImageButton.h; sourceTree = "<group>"; };
+		A2B04BED1C4634450036B29D /* LuckImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckImageButton.m; sourceTree = "<group>"; };
+		A2B04BEE1C4634450036B29D /* LuckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckView.h; sourceTree = "<group>"; };
+		A2B04BEF1C4634450036B29D /* LuckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckView.m; sourceTree = "<group>"; };
+		A2B04BF01C4634450036B29D /* LuckView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LuckView.xib; sourceTree = "<group>"; };
+		A2B04BF61C46690C0036B29D /* HYKHalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKHalTableViewController.h; sourceTree = "<group>"; };
+		A2B04BF71C46690C0036B29D /* HYKHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKHallTableViewController.m; sourceTree = "<group>"; };
+		A2B04BFC1C4673EF0036B29D /* HYKSelectNumberController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYKSelectNumberController.h; path = ../View/HYKSelectNumberController.h; sourceTree = "<group>"; };
+		A2B04BFD1C4673EF0036B29D /* HYKSelectNumberController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYKSelectNumberController.m; path = ../View/HYKSelectNumberController.m; sourceTree = "<group>"; };
+		A2B04C051C469F530036B29D /* HYKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKCollectionViewCell.h; sourceTree = "<group>"; };
+		A2B04C061C469F530036B29D /* HYKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKCollectionViewCell.m; sourceTree = "<group>"; };
+		A2B04C081C46A5FD0036B29D /* HYKGuideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKGuideController.h; sourceTree = "<group>"; };
+		A2B04C091C46A5FD0036B29D /* HYKGuideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKGuideController.m; sourceTree = "<group>"; };
+		A2C7CCB31C487FC90072AB48 /* HYKSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKSettingController.h; sourceTree = "<group>"; };
+		A2C7CCB41C487FC90072AB48 /* HYKSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKSettingController.m; sourceTree = "<group>"; };
+		A2C7CCB81C4880420072AB48 /* HYKLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKLoginController.h; sourceTree = "<group>"; };
+		A2C7CCB91C4880420072AB48 /* HYKLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKLoginController.m; sourceTree = "<group>"; };
+		A2C7CCBB1C4887A60072AB48 /* HYKSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKSetting.plist; sourceTree = "<group>"; };
+		A2D359BA1C4743C000BC59D4 /* HYKArenaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKArenaController.h; sourceTree = "<group>"; };
+		A2D359BB1C4743C000BC59D4 /* HYKArenaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKArenaController.m; sourceTree = "<group>"; };
+		A2D483151C448D200078417A /* 网易彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D483191C448D200078417A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D4831B1C448D200078417A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../AppDelegate.h; sourceTree = "<group>"; };
+		A2D4831C1C448D200078417A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../AppDelegate.m; sourceTree = "<group>"; };
+		A2D483241C448D200078417A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D483271C448D200078417A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D483291C448D200078417A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D483341C4514670078417A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A2DA17191C4E90D100B95DF1 /* HYKPush.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HYKPush.plist; sourceTree = "<group>"; };
+		A2EECEAB1C50F58E007E90E4 /* HYKHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKHelpController.h; sourceTree = "<group>"; };
+		A2EECEAC1C50F58E007E90E4 /* HYKHelpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKHelpController.m; sourceTree = "<group>"; };
+		A2EECEAE1C50F817007E90E4 /* HYKHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKHelp.h; sourceTree = "<group>"; };
+		A2EECEAF1C50F817007E90E4 /* HYKHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKHelp.m; sourceTree = "<group>"; };
+		A2EECEB11C50FCCE007E90E4 /* HYKWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKWebController.h; sourceTree = "<group>"; };
+		A2EECEB21C50FCCE007E90E4 /* HYKWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKWebController.m; sourceTree = "<group>"; };
+		A2FAA4511C45E75F00774590 /* HYKHall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HYKHall.storyboard; sourceTree = "<group>"; };
+		A2FAA4531C45E79400774590 /* HYKArena.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HYKArena.storyboard; sourceTree = "<group>"; };
+		A2FAA4551C45E7A200774590 /* HYKDiscovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HYKDiscovery.storyboard; sourceTree = "<group>"; };
+		A2FAA4591C45E7B200774590 /* HYKMyLottery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HYKMyLottery.storyboard; sourceTree = "<group>"; };
+		A2FAA45D1C45ED4A00774590 /* HYKTabBarControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKTabBarControllerTableViewController.h; sourceTree = "<group>"; };
+		A2FAA45E1C45ED4A00774590 /* HYKTabBarControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKTabBarControllerTableViewController.m; sourceTree = "<group>"; };
+		A2FAA4611C45F06100774590 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A2FAA4621C45F06100774590 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		A2FAA4641C45F08E00774590 /* HYKBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKBottomView.h; sourceTree = "<group>"; };
+		A2FAA4651C45F08E00774590 /* HYKBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKBottomView.m; sourceTree = "<group>"; };
+		A2FAA4671C45F8A200774590 /* HYKButtomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKButtomBtn.h; sourceTree = "<group>"; };
+		A2FAA4681C45F8A200774590 /* HYKButtomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKButtomBtn.m; sourceTree = "<group>"; };
+		A2FAA46A1C460DB800774590 /* HYKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYKNavigationController.h; sourceTree = "<group>"; };
+		A2FAA46B1C460DB800774590 /* HYKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYKNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D483121C448D200078417A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21849F31C478B490094EBA9 /* LuckWheel */ = {
+			isa = PBXGroup;
+			children = (
+				A2B04BEC1C4634450036B29D /* LuckImageButton.h */,
+				A2B04BED1C4634450036B29D /* LuckImageButton.m */,
+				A2B04BEE1C4634450036B29D /* LuckView.h */,
+				A2B04BEF1C4634450036B29D /* LuckView.m */,
+				A2B04BF01C4634450036B29D /* LuckView.xib */,
+			);
+			name = LuckWheel;
+			sourceTree = "<group>";
+		};
+		A21849F41C478B7F0094EBA9 /* GroupBuy */ = {
+			isa = PBXGroup;
+			children = (
+				A21849F01C477F6C0094EBA9 /* HYKGroupButton.h */,
+				A21849F11C477F6C0094EBA9 /* HYKGroupButton.m */,
+			);
+			name = GroupBuy;
+			sourceTree = "<group>";
+		};
+		A21849F51C478BBD0094EBA9 /* GroupBuy */ = {
+			isa = PBXGroup;
+			children = (
+				A21849ED1C477ECA0094EBA9 /* HYKGroupBuyController.h */,
+				A21849EE1C477ECA0094EBA9 /* HYKGroupBuyController.m */,
+			);
+			name = GroupBuy;
+			sourceTree = "<group>";
+		};
+		A21849F61C478C010094EBA9 /* LuckWheel */ = {
+			isa = PBXGroup;
+			children = (
+				A2B04BE91C4634340036B29D /* LuckViewController.h */,
+				A2B04BEA1C4634340036B29D /* LuckViewController.m */,
+			);
+			name = LuckWheel;
+			sourceTree = "<group>";
+		};
+		A21849F71C478C030094EBA9 /* LuckSelectNumber */ = {
+			isa = PBXGroup;
+			children = (
+				A2B04BFC1C4673EF0036B29D /* HYKSelectNumberController.h */,
+				A2B04BFD1C4673EF0036B29D /* HYKSelectNumberController.m */,
+			);
+			name = LuckSelectNumber;
+			sourceTree = "<group>";
+		};
+		A2184A041C48165D0094EBA9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A2184A011C4816310094EBA9 /* ChatViewController.h */,
+				A2184A021C4816310094EBA9 /* ChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		A2184A051C4816CB0094EBA9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A21849FB1C4816260094EBA9 /* QQChatFrameModel.h */,
+				A21849FC1C4816260094EBA9 /* QQChatFrameModel.m */,
+				A21849FD1C4816260094EBA9 /* QQChatModel.h */,
+				A21849FE1C4816260094EBA9 /* QQChatModel.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		A2184A061C4816EB0094EBA9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				A21849F81C4816170094EBA9 /* QQChaCell.m */,
+				A21849F91C4816170094EBA9 /* QQChatCell.h */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		A29B4D291CB7744800E0C086 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				A29B4D2A1CB7744800E0C086 /* help.json */,
+				A29B4D2B1CB7744800E0C086 /* more_project.json */,
+				A29B4D2C1CB7744800E0C086 /* products.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		A29B4D301CB7745000E0C086 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				A29B4D311CB7745000E0C086 /* bjdc_howto.html */,
+				A29B4D321CB7745000E0C086 /* coupon_help.html */,
+				A29B4D331CB7745000E0C086 /* credit_help.html */,
+				A29B4D341CB7745000E0C086 /* dlt_howto.html */,
+				A29B4D351CB7745000E0C086 /* f9_howto.html */,
+				A29B4D361CB7745000E0C086 /* gdy11_howto.html */,
+				A29B4D371CB7745000E0C086 /* group_record.html */,
+				A29B4D381CB7745000E0C086 /* help.html */,
+				A29B4D391CB7745000E0C086 /* helpGroupBuy.html */,
+				A29B4D3A1CB7745000E0C086 /* jclq_howto.html */,
+				A29B4D3B1CB7745000E0C086 /* jczq_howto.html */,
+				A29B4D3C1CB7745000E0C086 /* jxssc_howto.html */,
+				A29B4D3D1CB7745000E0C086 /* jxy11_howto.html */,
+				A29B4D3E1CB7745000E0C086 /* k2_howto.html */,
+				A29B4D3F1CB7745000E0C086 /* k3_howto.html */,
+				A29B4D401CB7745000E0C086 /* kl8_howto.html */,
+				A29B4D411CB7745000E0C086 /* lk11_howto.html */,
+				A29B4D421CB7745000E0C086 /* networkconnectedfailed.html */,
+				A29B4D431CB7745000E0C086 /* pl3_howto.html */,
+				A29B4D441CB7745000E0C086 /* pl5_howto.html */,
+				A29B4D451CB7745000E0C086 /* qlc_howto.html */,
+				A29B4D461CB7745000E0C086 /* qxc_howto.html */,
+				A29B4D471CB7745000E0C086 /* rule.css */,
+				A29B4D481CB7745000E0C086 /* sfc_howto.html */,
+				A29B4D491CB7745000E0C086 /* ssc_howto.html */,
+				A29B4D4A1CB7745000E0C086 /* ssq_howto.html */,
+				A29B4D4B1CB7745000E0C086 /* x3d_howto.html */,
+				A29B4D4C1CB7745000E0C086 /* y11_howto.html */,
+				A29B4D4D1CB7745000E0C086 /* znzh.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		A2C31D6B1C4BCC01002327DF /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7CCBB1C4887A60072AB48 /* HYKSetting.plist */,
+				A2DA17191C4E90D100B95DF1 /* HYKPush.plist */,
+				A208A5141C4F4BA500DE28B8 /* HYKPush2.plist */,
+				A242A6151C4F671800F9173E /* HYKPush3.plist */,
+				A242A61A1C4F8B2100F9173E /* HYKPrize.plist */,
+				A242A61C1C4F8B5D00F9173E /* HYKTipLottery.plist */,
+				A242A6321C50B34600F9173E /* HYKShare.plist */,
+				A242A62E1C50A02D00F9173E /* HYKAbout.plist */,
+				A2184A071C4817110094EBA9 /* messages.plist */,
+				A2D483291C448D200078417A /* Info.plist */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		A2C7CCB61C4880050072AB48 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7CCB31C487FC90072AB48 /* HYKSettingController.h */,
+				A2C7CCB41C487FC90072AB48 /* HYKSettingController.m */,
+				A242A6171C4F72A400F9173E /* HYKScoreController.h */,
+				A242A6181C4F72A400F9173E /* HYKScoreController.m */,
+				A242A61E1C4FF85400F9173E /* HYKProductController.h */,
+				A242A61F1C4FF85400F9173E /* HYKProductController.m */,
+				A242A6211C4FF88A00F9173E /* HYKAboutController.h */,
+				A242A6221C4FF88A00F9173E /* HYKAboutController.m */,
+				A2EECEAB1C50F58E007E90E4 /* HYKHelpController.h */,
+				A2EECEAC1C50F58E007E90E4 /* HYKHelpController.m */,
+				A2EECEB11C50FCCE007E90E4 /* HYKWebController.h */,
+				A2EECEB21C50FCCE007E90E4 /* HYKWebController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		A2D4830C1C448D200078417A = {
+			isa = PBXGroup;
+			children = (
+				A2D483171C448D200078417A /* 网易彩票 */,
+				A2D483161C448D200078417A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D483161C448D200078417A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D483151C448D200078417A /* 网易彩票.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D483171C448D200078417A /* 网易彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4221C45E39100774590 /* Classes */,
+				A2D483181C448D200078417A /* Supporting Files */,
+			);
+			path = "网易彩票";
+			sourceTree = "<group>";
+		};
+		A2D483181C448D200078417A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A29B4D301CB7745000E0C086 /* Html */,
+				A29B4D291CB7744800E0C086 /* json */,
+				A2C31D6B1C4BCC01002327DF /* Plist */,
+				A2D483341C4514670078417A /* PrefixHeader.pch */,
+				A2D483241C448D200078417A /* Assets.xcassets */,
+				A2D483261C448D200078417A /* LaunchScreen.storyboard */,
+				A2D483191C448D200078417A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FAA4221C45E39100774590 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4431C45E39100774590 /* Main */,
+				A2FAA42D1C45E39100774590 /* Hall */,
+				A2FAA4231C45E39100774590 /* Arena */,
+				A2FAA4281C45E39100774590 /* Discovery */,
+				A2FAA4321C45E39100774590 /* History */,
+				A2FAA4481C45E39100774590 /* MyLottery */,
+				A2FAA43E1C45E39100774590 /* Introduce */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A2FAA4231C45E39100774590 /* Arena */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4241C45E39100774590 /* Controller */,
+				A2FAA4251C45E39100774590 /* Model */,
+				A2FAA4261C45E39100774590 /* Other */,
+				A2FAA4271C45E39100774590 /* View */,
+			);
+			path = Arena;
+			sourceTree = "<group>";
+		};
+		A2FAA4241C45E39100774590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4531C45E79400774590 /* HYKArena.storyboard */,
+				A2D359BA1C4743C000BC59D4 /* HYKArenaController.h */,
+				A2D359BB1C4743C000BC59D4 /* HYKArenaController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FAA4251C45E39100774590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2FAA4261C45E39100774590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2FAA4271C45E39100774590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FAA4281C45E39100774590 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4291C45E39100774590 /* Controller */,
+				A2FAA42A1C45E39100774590 /* Model */,
+				A2FAA42B1C45E39100774590 /* Other */,
+				A2FAA42C1C45E39100774590 /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		A2FAA4291C45E39100774590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4551C45E7A200774590 /* HYKDiscovery.storyboard */,
+				A21849F51C478BBD0094EBA9 /* GroupBuy */,
+				A21849F71C478C030094EBA9 /* LuckSelectNumber */,
+				A21849F61C478C010094EBA9 /* LuckWheel */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FAA42A1C45E39100774590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2FAA42B1C45E39100774590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2FAA42C1C45E39100774590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A21849F41C478B7F0094EBA9 /* GroupBuy */,
+				A21849F31C478B490094EBA9 /* LuckWheel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FAA42D1C45E39100774590 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA42E1C45E39100774590 /* Controller */,
+				A2FAA42F1C45E39100774590 /* Model */,
+				A2FAA4301C45E39100774590 /* Other */,
+				A2FAA4311C45E39100774590 /* View */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		A2FAA42E1C45E39100774590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4511C45E75F00774590 /* HYKHall.storyboard */,
+				A2B04BF61C46690C0036B29D /* HYKHalTableViewController.h */,
+				A2B04BF71C46690C0036B29D /* HYKHallTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FAA42F1C45E39100774590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2FAA4301C45E39100774590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2FAA4311C45E39100774590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FAA4321C45E39100774590 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4331C45E39100774590 /* Controller */,
+				A2FAA4361C45E39100774590 /* Model */,
+				A2FAA4371C45E39100774590 /* Other */,
+				A2FAA4381C45E39100774590 /* View */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		A2FAA4331C45E39100774590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2B04BE71C4633DC0036B29D /* HYKHistory.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FAA4361C45E39100774590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2FAA4371C45E39100774590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2FAA4381C45E39100774590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FAA43E1C45E39100774590 /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA43F1C45E39100774590 /* Controller */,
+				A2FAA4401C45E39100774590 /* Model */,
+				A2FAA4411C45E39100774590 /* Other */,
+				A2FAA4421C45E39100774590 /* View */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		A2FAA43F1C45E39100774590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2B04C081C46A5FD0036B29D /* HYKGuideController.h */,
+				A2B04C091C46A5FD0036B29D /* HYKGuideController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FAA4401C45E39100774590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2FAA4411C45E39100774590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2FAA4421C45E39100774590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2B04C051C469F530036B29D /* HYKCollectionViewCell.h */,
+				A2B04C061C469F530036B29D /* HYKCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FAA4431C45E39100774590 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4601C45F03600774590 /* Cateaory */,
+				A2FAA4441C45E39100774590 /* Controller */,
+				A2FAA4451C45E39100774590 /* Model */,
+				A2FAA4471C45E39100774590 /* View */,
+				A2FAA4461C45E39100774590 /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A2FAA4441C45E39100774590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA45D1C45ED4A00774590 /* HYKTabBarControllerTableViewController.h */,
+				A2FAA45E1C45ED4A00774590 /* HYKTabBarControllerTableViewController.m */,
+				A2FAA46A1C460DB800774590 /* HYKNavigationController.h */,
+				A2FAA46B1C460DB800774590 /* HYKNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FAA4451C45E39100774590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2FAA4461C45E39100774590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4831B1C448D200078417A /* AppDelegate.h */,
+				A2D4831C1C448D200078417A /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2FAA4471C45E39100774590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4641C45F08E00774590 /* HYKBottomView.h */,
+				A2FAA4651C45F08E00774590 /* HYKBottomView.m */,
+				A2FAA4671C45F8A200774590 /* HYKButtomBtn.h */,
+				A2FAA4681C45F8A200774590 /* HYKButtomBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FAA4481C45E39100774590 /* MyLottery */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4491C45E39100774590 /* Controller */,
+				A2FAA44A1C45E39100774590 /* Model */,
+				A2FAA44B1C45E39100774590 /* Other */,
+				A2FAA44C1C45E39100774590 /* View */,
+			);
+			path = MyLottery;
+			sourceTree = "<group>";
+		};
+		A2FAA4491C45E39100774590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7CCB81C4880420072AB48 /* HYKLoginController.h */,
+				A2C7CCB91C4880420072AB48 /* HYKLoginController.m */,
+				A2FAA4591C45E7B200774590 /* HYKMyLottery.storyboard */,
+				A2184A041C48165D0094EBA9 /* Chat */,
+				A2C7CCB61C4880050072AB48 /* Setting */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FAA44A1C45E39100774590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2184A051C4816CB0094EBA9 /* Chat */,
+				A242A6241C4FFA9700F9173E /* HYKProduct.h */,
+				A242A6251C4FFA9700F9173E /* HYKProduct.m */,
+				A2EECEAE1C50F817007E90E4 /* HYKHelp.h */,
+				A2EECEAF1C50F817007E90E4 /* HYKHelp.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2FAA44B1C45E39100774590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2FAA44C1C45E39100774590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2184A061C4816EB0094EBA9 /* Chat */,
+				A242A6121C4F54B500F9173E /* HYKSettingCell.h */,
+				A242A6131C4F54B500F9173E /* HYKSettingCell.m */,
+				A242A6271C4FFE0200F9173E /* HYKProductCell.h */,
+				A242A6281C4FFE0200F9173E /* HYKProductCell.m */,
+				A242A62A1C4FFE2300F9173E /* HYKProductCell.xib */,
+				A242A6301C50A1F900F9173E /* HYKAboutHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FAA4601C45F03600774590 /* Cateaory */ = {
+			isa = PBXGroup;
+			children = (
+				A2FAA4611C45F06100774590 /* UIView+Extension.h */,
+				A2FAA4621C45F06100774590 /* UIView+Extension.m */,
+			);
+			name = Cateaory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D483141C448D200078417A /* 网易彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D4832C1C448D200078417A /* Build configuration list for PBXNativeTarget "网易彩票" */;
+			buildPhases = (
+				A2D483111C448D200078417A /* Sources */,
+				A2D483121C448D200078417A /* Frameworks */,
+				A2D483131C448D200078417A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易彩票";
+			productName = "网易彩票";
+			productReference = A2D483151C448D200078417A /* 网易彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D4830D1C448D200078417A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYK;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "侯玉昆";
+				TargetAttributes = {
+					A2D483141C448D200078417A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4CAJ7C5XX7;
+					};
+				};
+			};
+			buildConfigurationList = A2D483101C448D200078417A /* Build configuration list for PBXProject "网易彩票" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D4830C1C448D200078417A;
+			productRefGroup = A2D483161C448D200078417A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D483141C448D200078417A /* 网易彩票 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D483131C448D200078417A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DA171A1C4E90D100B95DF1 /* HYKPush.plist in Resources */,
+				A29B4D621CB7745000E0C086 /* qlc_howto.html in Resources */,
+				A29B4D551CB7745000E0C086 /* help.html in Resources */,
+				A29B4D501CB7745000E0C086 /* credit_help.html in Resources */,
+				A242A6311C50A1F900F9173E /* HYKAboutHeaderView.xib in Resources */,
+				A2FAA4561C45E7A200774590 /* HYKDiscovery.storyboard in Resources */,
+				A242A61B1C4F8B2100F9173E /* HYKPrize.plist in Resources */,
+				A29B4D601CB7745000E0C086 /* pl3_howto.html in Resources */,
+				A29B4D4E1CB7745000E0C086 /* bjdc_howto.html in Resources */,
+				A29B4D5C1CB7745000E0C086 /* k3_howto.html in Resources */,
+				A208A5151C4F4BA500DE28B8 /* HYKPush2.plist in Resources */,
+				A29B4D641CB7745000E0C086 /* rule.css in Resources */,
+				A29B4D511CB7745000E0C086 /* dlt_howto.html in Resources */,
+				A29B4D581CB7745000E0C086 /* jczq_howto.html in Resources */,
+				A29B4D631CB7745000E0C086 /* qxc_howto.html in Resources */,
+				A242A62F1C50A02D00F9173E /* HYKAbout.plist in Resources */,
+				A242A6331C50B34600F9173E /* HYKShare.plist in Resources */,
+				A29B4D591CB7745000E0C086 /* jxssc_howto.html in Resources */,
+				A2B04BF31C4634450036B29D /* LuckView.xib in Resources */,
+				A29B4D5E1CB7745000E0C086 /* lk11_howto.html in Resources */,
+				A29B4D571CB7745000E0C086 /* jclq_howto.html in Resources */,
+				A2D483281C448D200078417A /* LaunchScreen.storyboard in Resources */,
+				A2B04BE81C4633DC0036B29D /* HYKHistory.storyboard in Resources */,
+				A29B4D2D1CB7744800E0C086 /* help.json in Resources */,
+				A2D483251C448D200078417A /* Assets.xcassets in Resources */,
+				A29B4D6A1CB7745000E0C086 /* znzh.html in Resources */,
+				A29B4D541CB7745000E0C086 /* group_record.html in Resources */,
+				A2C7CCBC1C4887A60072AB48 /* HYKSetting.plist in Resources */,
+				A29B4D561CB7745000E0C086 /* helpGroupBuy.html in Resources */,
+				A29B4D5F1CB7745000E0C086 /* networkconnectedfailed.html in Resources */,
+				A29B4D661CB7745000E0C086 /* ssc_howto.html in Resources */,
+				A29B4D2E1CB7744800E0C086 /* more_project.json in Resources */,
+				A2184A081C4817110094EBA9 /* messages.plist in Resources */,
+				A2FAA4541C45E79400774590 /* HYKArena.storyboard in Resources */,
+				A29B4D5A1CB7745000E0C086 /* jxy11_howto.html in Resources */,
+				A29B4D651CB7745000E0C086 /* sfc_howto.html in Resources */,
+				A2FAA4521C45E75F00774590 /* HYKHall.storyboard in Resources */,
+				A29B4D681CB7745000E0C086 /* x3d_howto.html in Resources */,
+				A29B4D5D1CB7745000E0C086 /* kl8_howto.html in Resources */,
+				A242A62B1C4FFE2300F9173E /* HYKProductCell.xib in Resources */,
+				A242A61D1C4F8B5D00F9173E /* HYKTipLottery.plist in Resources */,
+				A29B4D5B1CB7745000E0C086 /* k2_howto.html in Resources */,
+				A29B4D671CB7745000E0C086 /* ssq_howto.html in Resources */,
+				A29B4D2F1CB7744800E0C086 /* products.json in Resources */,
+				A29B4D521CB7745000E0C086 /* f9_howto.html in Resources */,
+				A242A6161C4F671800F9173E /* HYKPush3.plist in Resources */,
+				A29B4D611CB7745000E0C086 /* pl5_howto.html in Resources */,
+				A29B4D531CB7745000E0C086 /* gdy11_howto.html in Resources */,
+				A2FAA45A1C45E7B200774590 /* HYKMyLottery.storyboard in Resources */,
+				A29B4D691CB7745000E0C086 /* y11_howto.html in Resources */,
+				A29B4D4F1CB7745000E0C086 /* coupon_help.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D483111C448D200078417A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A242A6231C4FF88A00F9173E /* HYKAboutController.m in Sources */,
+				A2184A031C4816310094EBA9 /* ChatViewController.m in Sources */,
+				A2D4831D1C448D200078417A /* AppDelegate.m in Sources */,
+				A2B04BF81C46690C0036B29D /* HYKHallTableViewController.m in Sources */,
+				A2D359BC1C4743C000BC59D4 /* HYKArenaController.m in Sources */,
+				A2C7CCB51C487FC90072AB48 /* HYKSettingController.m in Sources */,
+				A21849F21C477F6C0094EBA9 /* HYKGroupButton.m in Sources */,
+				A2C7CCBA1C4880420072AB48 /* HYKLoginController.m in Sources */,
+				A242A6261C4FFA9700F9173E /* HYKProduct.m in Sources */,
+				A2FAA4691C45F8A200774590 /* HYKButtomBtn.m in Sources */,
+				A2B04C0A1C46A5FD0036B29D /* HYKGuideController.m in Sources */,
+				A21849FA1C4816170094EBA9 /* QQChaCell.m in Sources */,
+				A242A6191C4F72A400F9173E /* HYKScoreController.m in Sources */,
+				A2FAA4631C45F06100774590 /* UIView+Extension.m in Sources */,
+				A2B04BF21C4634450036B29D /* LuckView.m in Sources */,
+				A2FAA46C1C460DB800774590 /* HYKNavigationController.m in Sources */,
+				A2FAA45F1C45ED4A00774590 /* HYKTabBarControllerTableViewController.m in Sources */,
+				A2B04BEB1C4634340036B29D /* LuckViewController.m in Sources */,
+				A2B04BF11C4634450036B29D /* LuckImageButton.m in Sources */,
+				A2EECEAD1C50F58E007E90E4 /* HYKHelpController.m in Sources */,
+				A2B04C071C469F530036B29D /* HYKCollectionViewCell.m in Sources */,
+				A2FAA4661C45F08E00774590 /* HYKBottomView.m in Sources */,
+				A2D4831A1C448D200078417A /* main.m in Sources */,
+				A242A6201C4FF85400F9173E /* HYKProductController.m in Sources */,
+				A21849FF1C4816260094EBA9 /* QQChatFrameModel.m in Sources */,
+				A2B04BFE1C4673EF0036B29D /* HYKSelectNumberController.m in Sources */,
+				A21849EF1C477ECA0094EBA9 /* HYKGroupBuyController.m in Sources */,
+				A2EECEB31C50FCCE007E90E4 /* HYKWebController.m in Sources */,
+				A242A6141C4F54B500F9173E /* HYKSettingCell.m in Sources */,
+				A2EECEB01C50F817007E90E4 /* HYKHelp.m in Sources */,
+				A242A6291C4FFE0200F9173E /* HYKProductCell.m in Sources */,
+				A2184A001C4816260094EBA9 /* QQChatModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D483261C448D200078417A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D483271C448D200078417A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D4832A1C448D200078417A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D4832B1C448D200078417A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D4832D1C448D200078417A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "./网易彩票/PrefixHeader.pch";
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyk.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2D4832E1C448D200078417A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "./网易彩票/PrefixHeader.pch";
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyk.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D483101C448D200078417A /* Build configuration list for PBXProject "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D4832A1C448D200078417A /* Debug */,
+				A2D4832B1C448D200078417A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D4832C1C448D200078417A /* Build configuration list for PBXNativeTarget "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D4832D1C448D200078417A /* Debug */,
+				A2D4832E1C448D200078417A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D4830D1C448D200078417A /* Project object */;
+}

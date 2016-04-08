@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RUv-CK-T3j">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ROn-b8-6wT">
+            <objects>
+                <navigationController id="RUv-CK-T3j" customClass="HYKNavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yvd-Fg-hd3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="T1q-tV-Fnr" kind="relationship" relationship="rootViewController" id="p1L-1U-gRd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W9N-0n-hQk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-467" y="303"/>
+        </scene>
+        <!--客服mm-->
+        <scene sceneID="hAv-Da-eYJ">
+            <objects>
+                <viewController id="9xj-3e-WNr" customClass="ChatViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R5Q-80-Ns6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rq0-Lj-qCJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j3B-9c-twX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zTv-6D-nML">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat_bottom_bg" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-p2-m6X">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <animations/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAA-Dn-J95">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="OeL-OB-YaA"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="chat_bottom_voice_nor"/>
+                                        <state key="highlighted" backgroundImage="chat_bottom_voice_press"/>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" background="chat_bottom_textfield" translatesAutoresizingMaskIntoConstraints="NO" id="J8K-mG-tzg">
+                                        <rect key="frame" x="49" y="5" width="451" height="34"/>
+                                        <animations/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="send"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjZ-qn-nUg">
+                                        <rect key="frame" x="556" y="0.0" width="44" height="44"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="0Yi-td-H9N"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="chat_bottom_up_nor"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FX4-5y-bgw">
+                                        <rect key="frame" x="505" y="0.0" width="46" height="44"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="2YR-Cr-cMM"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="chat_bottom_smile_nor"/>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="FX4-5y-bgw" secondAttribute="bottom" id="3ls-4p-ldh"/>
+                                    <constraint firstAttribute="bottom" secondItem="0qb-p2-m6X" secondAttribute="bottom" id="BXV-hk-zgi"/>
+                                    <constraint firstItem="FX4-5y-bgw" firstAttribute="leading" secondItem="J8K-mG-tzg" secondAttribute="trailing" constant="5" id="DCH-jk-n1u"/>
+                                    <constraint firstItem="WjZ-qn-nUg" firstAttribute="top" secondItem="zTv-6D-nML" secondAttribute="top" id="EHB-yk-Oaj"/>
+                                    <constraint firstAttribute="bottom" secondItem="WjZ-qn-nUg" secondAttribute="bottom" id="MO0-0B-puy"/>
+                                    <constraint firstItem="JAA-Dn-J95" firstAttribute="leading" secondItem="zTv-6D-nML" secondAttribute="leading" id="PeP-cG-3Yb"/>
+                                    <constraint firstAttribute="trailing" secondItem="0qb-p2-m6X" secondAttribute="trailing" id="SHk-xl-Sa9"/>
+                                    <constraint firstAttribute="bottom" secondItem="J8K-mG-tzg" secondAttribute="bottom" constant="5" id="Th8-bY-bcN"/>
+                                    <constraint firstAttribute="bottom" secondItem="JAA-Dn-J95" secondAttribute="bottom" id="Zt0-iT-ie2"/>
+                                    <constraint firstItem="FX4-5y-bgw" firstAttribute="top" secondItem="zTv-6D-nML" secondAttribute="top" id="aMF-9K-JiG"/>
+                                    <constraint firstItem="J8K-mG-tzg" firstAttribute="top" secondItem="zTv-6D-nML" secondAttribute="top" constant="5" id="cy6-Om-E6Y"/>
+                                    <constraint firstAttribute="height" constant="44" id="hxD-zb-VT5"/>
+                                    <constraint firstItem="0qb-p2-m6X" firstAttribute="leading" secondItem="zTv-6D-nML" secondAttribute="leading" id="ji0-Mt-MtY"/>
+                                    <constraint firstAttribute="trailing" secondItem="WjZ-qn-nUg" secondAttribute="trailing" id="rsF-Yc-fVN"/>
+                                    <constraint firstItem="WjZ-qn-nUg" firstAttribute="leading" secondItem="FX4-5y-bgw" secondAttribute="trailing" constant="5" id="uld-9H-7nc"/>
+                                    <constraint firstItem="0qb-p2-m6X" firstAttribute="top" secondItem="zTv-6D-nML" secondAttribute="top" id="xFl-lb-tfD"/>
+                                    <constraint firstItem="JAA-Dn-J95" firstAttribute="top" secondItem="zTv-6D-nML" secondAttribute="top" id="xcj-kp-ybu"/>
+                                    <constraint firstItem="J8K-mG-tzg" firstAttribute="leading" secondItem="JAA-Dn-J95" secondAttribute="trailing" constant="5" id="z74-C3-1u6"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nr4-8L-Or2">
+                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nr4-8L-Or2" secondAttribute="trailing" id="3W8-VF-mmr"/>
+                            <constraint firstItem="nr4-8L-Or2" firstAttribute="leading" secondItem="j3B-9c-twX" secondAttribute="leading" id="DOW-us-JxJ"/>
+                            <constraint firstAttribute="trailing" secondItem="zTv-6D-nML" secondAttribute="trailing" id="Eq8-ZR-50V"/>
+                            <constraint firstItem="nr4-8L-Or2" firstAttribute="top" secondItem="R5Q-80-Ns6" secondAttribute="bottom" id="HI7-Er-HMR"/>
+                            <constraint firstItem="zTv-6D-nML" firstAttribute="top" secondItem="nr4-8L-Or2" secondAttribute="bottom" id="IOn-WJ-Eo6"/>
+                            <constraint firstAttribute="bottom" secondItem="zTv-6D-nML" secondAttribute="bottom" id="IwJ-TP-Pbg"/>
+                            <constraint firstItem="zTv-6D-nML" firstAttribute="leading" secondItem="j3B-9c-twX" secondAttribute="leading" id="Ma6-HT-uQY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="客服mm" id="wlk-eQ-C9J"/>
+                    <connections>
+                        <outlet property="inputField" destination="J8K-mG-tzg" id="Gle-LB-HtZ"/>
+                        <outlet property="tableView" destination="nr4-8L-Or2" id="JXM-B4-xfw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ju6-Sh-Gtt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="-355"/>
+        </scene>
+        <!--我的彩票-->
+        <scene sceneID="eZ0-HP-HFR">
+            <objects>
+                <viewController id="T1q-tV-Fnr" customClass="HYKLoginController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Goi-5m-vaH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pes-yN-2S1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jfs-fj-ybE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="rQt-Pv-KeJ">
+                                <rect key="frame" x="152" y="100" width="296" height="138"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网易邮箱账号可以直接登录" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQc-ql-8UE">
+                                <rect key="frame" x="198" y="288" width="204" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAS-XS-9L1">
+                                <rect key="frame" x="20" y="409" width="560" height="30"/>
+                                <animations/>
+                                <state key="normal" title="注册" backgroundImage="RedButton"/>
+                                <state key="highlighted" backgroundImage="RedButtonPressed"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrW-xj-c4N">
+                                <rect key="frame" x="30" y="449" width="68" height="30"/>
+                                <animations/>
+                                <state key="normal" title="忘记密码?">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDf-SM-pFa">
+                                <rect key="frame" x="20" y="359" width="560" height="30"/>
+                                <animations/>
+                                <state key="normal" title="登录" backgroundImage="RedButton"/>
+                                <state key="highlighted" backgroundImage="RedButtonPressed"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oQc-ql-8UE" firstAttribute="top" secondItem="rQt-Pv-KeJ" secondAttribute="bottom" constant="50" id="694-Cz-cpZ"/>
+                            <constraint firstItem="rDf-SM-pFa" firstAttribute="leading" secondItem="Jfs-fj-ybE" secondAttribute="leading" constant="20" id="MJG-IJ-Brv"/>
+                            <constraint firstItem="rQt-Pv-KeJ" firstAttribute="top" secondItem="Jfs-fj-ybE" secondAttribute="top" constant="100" id="Qgl-Ho-9Ad"/>
+                            <constraint firstItem="rQt-Pv-KeJ" firstAttribute="centerX" secondItem="Jfs-fj-ybE" secondAttribute="centerX" id="WeE-5O-jD2"/>
+                            <constraint firstItem="rDf-SM-pFa" firstAttribute="centerX" secondItem="Jfs-fj-ybE" secondAttribute="centerX" id="bed-Qf-9TK"/>
+                            <constraint firstItem="OrW-xj-c4N" firstAttribute="top" secondItem="cAS-XS-9L1" secondAttribute="bottom" constant="10" id="cnc-M8-G1Y"/>
+                            <constraint firstAttribute="trailing" secondItem="rDf-SM-pFa" secondAttribute="trailing" constant="20" id="e7H-ha-dx2"/>
+                            <constraint firstItem="OrW-xj-c4N" firstAttribute="leading" secondItem="Jfs-fj-ybE" secondAttribute="leading" constant="30" id="eAT-0T-UCq"/>
+                            <constraint firstAttribute="trailing" secondItem="cAS-XS-9L1" secondAttribute="trailing" constant="20" id="fkj-3I-JWN"/>
+                            <constraint firstItem="rDf-SM-pFa" firstAttribute="top" secondItem="oQc-ql-8UE" secondAttribute="bottom" constant="50" id="gYJ-LA-cif"/>
+                            <constraint firstItem="cAS-XS-9L1" firstAttribute="leading" secondItem="Jfs-fj-ybE" secondAttribute="leading" constant="20" id="oRq-ew-Yby"/>
+                            <constraint firstItem="cAS-XS-9L1" firstAttribute="top" secondItem="rDf-SM-pFa" secondAttribute="bottom" constant="20" id="veX-37-xYV"/>
+                            <constraint firstItem="oQc-ql-8UE" firstAttribute="centerX" secondItem="Jfs-fj-ybE" secondAttribute="centerX" id="zff-ra-PQ9"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="我的彩票" id="dGO-3w-1gq">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="Lql-cS-oWA">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aj5-yo-GVf">
+                                <rect key="frame" x="20" y="11" width="49" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="客服" image="FBMM_Barbutton"/>
+                                <connections>
+                                    <segue destination="9xj-3e-WNr" kind="show" id="ofX-bE-vTj"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Mylottery_config" id="EyF-kI-jxI">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="go2SettingVc:" destination="T1q-tV-Fnr" id="lDE-zu-wpk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DpO-cH-0n4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="309"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FBMM_Barbutton" width="13" height="13"/>
+        <image name="LoginScreen" width="296" height="138"/>
+        <image name="Mylottery_config" width="22" height="22"/>
+        <image name="RedButton" width="56" height="30"/>
+        <image name="RedButtonPressed" width="59" height="31"/>
+        <image name="chat_bottom_bg" width="10" height="42"/>
+        <image name="chat_bottom_smile_nor" width="34" height="34"/>
+        <image name="chat_bottom_textfield" width="166" height="31"/>
+        <image name="chat_bottom_up_nor" width="34" height="34"/>
+        <image name="chat_bottom_voice_nor" width="34" height="34"/>
+        <image name="chat_bottom_voice_press" width="34" height="34"/>
+    </resources>
+</document>

@@ -1,0 +1,127 @@
+//
+//  PrefixHeader.pch
+//  网易彩票
+//
+//  Created by 侯玉昆 on 16/1/12.
+//  Copyright © 2016年 侯玉昆. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+Extension.h"
+/**
+ *  随机色
+ */
+#define RANDOMCOLOR [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1]
+
+#define ANGLE (_selectBtn.tag * (M_PI * 2 / 12))
+
+
+// 打印宏
+#ifdef DEBUG
+
+#define HYKLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define HYKLog(...)
+
+#endif
+
+/**********************************************************************
+ *
+ * 单例对象,只需要改两个部分,一个是.h文件里面的内容,一个是.m文件里面的内容
+ * 宏里面拼接参数用两个 ##
+ **********************************************************************/
+
+
+//! 抽取h文件中的内容
+
+#define singletonObject_h(name)                         \
+\
++ (instancetype)shared##name;
+
+//! 抽取m文件中的内容
+
+#if __has_feature(objc_arc)                 //>! ARC环境下
+
+#define singletonObject_m(name)                         \
+\
+static id _instance;                                    \
+\
++ (instancetype)shared##name {                          \
+\
+static dispatch_once_t onceToken;                   \
+dispatch_once(&onceToken, ^{                        \
+\
+_instance = [[self alloc]init];                 \
+});                                                 \
+\
+return _instance;                                   \
+}                                                       \
+\
++ (instancetype)allocWithZone:(struct _NSZone *)zone {  \
+\
+static dispatch_once_t onceToken;                   \
+dispatch_once(&onceToken, ^{                        \
+\
+_instance = [super allocWithZone:zone];         \
+});                                                 \
+\
+return _instance;                                   \
+}                                                       \
+\
+- (id)copyWithZone:(NSZone *)zone {                     \
+\
+return _instance;                                   \
+}
+
+#else                                       //>! MRC环境下
+
+#define singletonObject_m(name)                         \
+\
+static id _instance;                                    \
+\
++ (instancetype)shared##name {                          \
+\
+static dispatch_once_t onceToken;                   \
+dispatch_once(&onceToken, ^{                        \
+\
+_instance = [[self alloc]init];                 \
+});                                                 \
+\
+return _instance;                                   \
+}                                                       \
+\
++ (instancetype)allocWithZone:(struct _NSZone *)zone {  \
+\
+static dispatch_once_t onceToken;                   \
+dispatch_once(&onceToken, ^{                        \
+\
+_instance = [super allocWithZone:zone];         \
+});                                                 \
+\
+return _instance;                                   \
+}                                                       \
+\
+- (id)copyWithZone:(NSZone *)zone {                     \
+\
+return _instance;                                   \
+}                                                       \
+\
+- (oneway void)release {}                               \
+\
+- (instancetype)retain {                                \
+\
+return _instance;                                   \
+}                                                       \
+\
+- (instancetype)autorelease {                           \
+\
+return _instance;                                   \
+}
+
+#endif
+
+
+#endif /* PrefixHeader_pch */

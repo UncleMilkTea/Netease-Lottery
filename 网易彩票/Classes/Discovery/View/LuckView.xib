@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LuckView">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="LuckyBaseBackground" translatesAutoresizingMaskIntoConstraints="NO" id="X1x-LO-h0T">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                    <animations/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="LuckyRotateWheel" translatesAutoresizingMaskIntoConstraints="NO" id="JJf-OZ-qcf">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPv-2r-Qhx">
+                    <rect key="frame" x="103" y="103" width="81" height="81"/>
+                    <animations/>
+                    <state key="normal" image="LuckyCenterButton"/>
+                    <state key="highlighted" image="LuckyCenterButtonPressed"/>
+                    <connections>
+                        <action selector="startNumber:" destination="iN0-l3-epB" eventType="touchUpInside" id="Fjg-6r-00C"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="JJf-OZ-qcf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Zy-rl-E4K"/>
+                <constraint firstAttribute="bottom" secondItem="JJf-OZ-qcf" secondAttribute="bottom" id="B3f-Og-Qa7"/>
+                <constraint firstItem="X1x-LO-h0T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HtQ-Lk-mHJ"/>
+                <constraint firstItem="X1x-LO-h0T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="V3h-TC-Xt1"/>
+                <constraint firstItem="MPv-2r-Qhx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="eIN-cV-hTi"/>
+                <constraint firstItem="JJf-OZ-qcf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="h1f-v0-kxe"/>
+                <constraint firstItem="MPv-2r-Qhx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="iYW-Jh-Mdd"/>
+                <constraint firstAttribute="bottom" secondItem="X1x-LO-h0T" secondAttribute="bottom" id="s7B-In-kkO"/>
+                <constraint firstAttribute="trailing" secondItem="JJf-OZ-qcf" secondAttribute="trailing" id="sJd-1K-qGY"/>
+                <constraint firstAttribute="trailing" secondItem="X1x-LO-h0T" secondAttribute="trailing" id="tkx-i1-ysM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="luckViewWheel" destination="JJf-OZ-qcf" id="HSP-1C-Lvr"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="LuckyBaseBackground" width="286" height="286"/>
+        <image name="LuckyCenterButton" width="81" height="81"/>
+        <image name="LuckyCenterButtonPressed" width="81" height="81"/>
+        <image name="LuckyRotateWheel" width="286" height="286"/>
+    </resources>
+</document>

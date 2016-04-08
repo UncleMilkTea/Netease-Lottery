@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>footer</key>
+		<string>开启后,当我投注或关注的比赛开始,进球和结束时,会自动推送消息提醒我</string>
+		<key>header</key>
+		<string></string>
+		<key>HYKItem</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>推送我关注的比赛</string>
+				<key>accessotyType</key>
+				<string>UISwitch</string>
+				<key>HYKCellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>HYKKeyName</key>
+				<string>tsbsw</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>footer</key>
+		<string></string>
+		<key>header</key>
+		<string>只在下一时间阶段接受比分直播推送</string>
+		<key>HYKItem</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>起始时间</string>
+				<key>HYKCellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>SubTitle</key>
+				<string>00:00</string>
+				<key>hightLight</key>
+				<true/>
+				<key>HYKTimer</key>
+				<string>timeStar</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>footer</key>
+		<string></string>
+		<key>header</key>
+		<string></string>
+		<key>HYKItem</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>结束时间</string>
+				<key>HYKCellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>hightLight</key>
+				<true/>
+				<key>SubTitle</key>
+				<string>23:59</string>
+				<key>HYKTimer</key>
+				<string>timeEnd</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

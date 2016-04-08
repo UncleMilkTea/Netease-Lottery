@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>footer</key>
+		<string></string>
+		<key>header</key>
+		<string></string>
+		<key>HYKItem</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>新浪微博</string>
+				<key>icon</key>
+				<string>WeiboSina</string>
+				<key>accessotyType</key>
+				<string>UIImageView</string>
+				<key>accessotyName</key>
+				<string>arrow_right</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>短信分享</string>
+				<key>icon</key>
+				<string>SmsShare</string>
+				<key>accessotyType</key>
+				<string>UIImageView</string>
+				<key>accessotyName</key>
+				<string>arrow_right</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>邮件分享</string>
+				<key>icon</key>
+				<string>MailShare</string>
+				<key>accessotyType</key>
+				<string>UIImageView</string>
+				<key>accessotyName</key>
+				<string>arrow_right</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
